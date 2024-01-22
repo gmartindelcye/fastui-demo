@@ -1,11 +1,15 @@
 [project]
 name = "fastui-demo"
 version = "0.1.0"
-description = "Default template for PDM package"
+description = "FastUI Demo"
 authors = [
     {name = "Gabriel Martin del Campo y Eternod", email = "gmartindelcye@gmail.com"},
 ]
-dependencies = []
+dependencies = [
+    "fastui>=0.4.0",
+    "fastapi>=0.109.0",
+    "uvicorn>=0.26.0",
+]
 requires-python = "==3.11.*"
 readme = "README.md"
 license = {text = "MIT"}
